@@ -10,8 +10,8 @@ import java.util.List;
  *
  * @author sala4
  */
-public class CortarPorErrorOWarning implements EstrategiaEjecucion {
+public abstract class CortarPorErrorOWarning implements EstrategiaEjecucion {
   
-    public void ejecutar(List){
+    public void ejecutar(List a){
     }
 }
