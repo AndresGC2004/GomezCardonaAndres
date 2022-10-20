@@ -7,7 +7,7 @@ package com.mycompany.gomezcardonaandres;
 /**
  *
  * @author Andrés Gómez Cardona
- * ident:1127230030
+ * ident:1127230030 realiza los pares 
  */
 public class TaskScheduler {
     
