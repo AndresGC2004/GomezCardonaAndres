@@ -10,6 +10,14 @@ package com.mycompany.gomezcardonaandres;
  */
 public class TareaCompuesta extends Tarea{
     
+    
+    private Tarea[] tarea;
+
+    public TareaCompuesta(String nom) {
+        super(nom);
+    }
+    
+    
     public void doEjecutar(){
     }
 }

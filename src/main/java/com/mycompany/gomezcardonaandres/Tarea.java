@@ -13,7 +13,12 @@ import java.util.Date;
 public class Tarea {
     private boolean habilitada;
     private boolean deshabilitar;
-    
+    private String nom;
+
+    public Tarea(String nom) {
+        this.nom = nom;
+    }
+ 
     public void ejecutar(){
     }
     public void doEjecutar(){
@@ -25,4 +30,13 @@ public class Tarea {
     }
     public void vecesQueDioError(Date i,Date b) {
     }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+    
 }
